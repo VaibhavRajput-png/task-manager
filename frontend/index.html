@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Task Manager</h1>
+            <p>Small steps. Every day. Keep moving forward.</p>
+        </div>
+
+        <div class="quote">
+            "Success is the sum of small efforts, repeated day in and day out."
+        </div>
+
+        <div class="task-box">
+            <form id="taskForm">
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="What needs to be done?"
+                    required
+                >
+
+                <button type="submit">
+                    Add Task
+                </button>
+            </form>
+        </div>
+
+        <ul id="taskList"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
